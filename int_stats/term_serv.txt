@@ -1,0 +1,6 @@
+cmhlab-ts1,ios,10.91.23.20,python,python
+cmhlab-ts2,ios,10.91.23.21,python,python
+cmhlab-ts3,ios,10.91.23.22,python,python
+cmhlab-ts4,ios,10.91.23.23,python,python
+cmhlab-ts5,ios,10.91.23.24,python,python
+cmhlab-ts8,ios,10.91.23.27,python,python
