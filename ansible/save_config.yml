@@ -1,0 +1,14 @@
+---
+- name: Save Running Config
+  hosts: term_serv
+  connection: local
+
+  tasks:
+    - name: Save Running Config
+      ios_config:
+        provider:
+          host: "{{mgmt_ip}}"
+          port: "{{ssh_port}}"
+          username: "{{username}}"
+          password: "{{password}}"
+        save_when: always

@@ -1,0 +1,10 @@
+[all:vars]
+ansible_python_interpreter="/usr/bin/env python"
+
+[term_serv]
+cmhlab-ts1
+cmhlab-ts2
+cmhlab-ts3
+cmhlab-ts4
+cmhlab-ts5
+cmhlab-ts8
