@@ -1,0 +1,15 @@
+---
+- name: Remove Admin Account
+  hosts: all
+  connection: local
+
+    tasks:
+      - name: Remove Admin Account
+        ios_config:
+          provider:
+            host: "{{mgmt_ip}}"
+            port: "{{ssh_port}}"
+            username: "{{username}}"
+            password: "{{password}}"
+          lines:
+            - no username admin

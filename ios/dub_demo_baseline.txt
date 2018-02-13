@@ -1,0 +1,18 @@
+conf t
+!
+username cisco privi 15 password N3rf,herder
+!
+line vty 0 15
+ login local
+ transport input ssh
+!
+snmp-server community README ro
+snmp-server community WRITEME rw
+!
+ip domain-name dubdemo.com
+!
+crypto key gen rsa mod 2048
+!
+end
+!
+copy running-config startup-config
