@@ -12,7 +12,8 @@ This is a mix of expect and netconf scripts for interacting with devices.
 Below you will find a collection of shell scripts that I use to automate common tasks typically done on my laptop. 
 
 * Prep Env - The shell script in this directory will add a default gitignore and requirements file.
-* clus18_bysh.sh - Shell script to automate positioning code repositories for Cisco Live 2018
+* clus18_bysh.sh - Shell script to automate positioning code repositories for Cisco Live 2018.
+  * To simplify using this file I've created a bit.ly URL. Github does not allow for directly accessing files out of a repo. To link to a file you must view the 'Raw' output and use that URL.
 * code_prompt.sh - Shell script to modify the bash shell prompt to minimize the prompt length.
   * When in a repo directory the prompt will color the name of the repo and current branch.
   * When in a repo the prompt will display the current state of the repo (up to date, changes to be committed, etc.
