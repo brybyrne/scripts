@@ -8,12 +8,16 @@ echo
 echo Running Git Pull for ciscolive2018-byrne
 cd ~/workspace/ciscolive2018-brybyrne
 git pull
-
-echo
 echo
 
-echo Creating ~/workspace/rshoemak and cloning CL-Setup and DevNet2556 repos.
+echo Creating ~/workspace/rshoemak
 cd ~/workspace
 mkdir rshoemak && cd rshoemak
+echo
+
+echo Cloning DevNet2556
 git clone https://www.github.com/rshoemak/DevNet2556/
+echo
+
+echo Cloning CL-Startup
 git clone https://www.github.com/rshoemak/CL-Setup
